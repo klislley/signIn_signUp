@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css" integrity="sha512-lCU0XyQA8yobR7ychVxEOU5rcxs0+aYh/9gNDLaybsgW9hdrtqczjfKVNIS5doY0Y5627/+3UVuoGv7p8QsUFw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <title>Sign-In & Sign-Up</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="containerContent containerSignUp">
+            <form action="#">
+                <h1>Criar a sua conta</h1>
+                <div class="containerSocial">
+                    <a href="#" class="socialMedia"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="socialMedia"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="socialMedia"><i class="fab fa-linkedin-f"></i></a>
+                </div>
+                <span>Ou use seu e-mail para se cadastrar.</span>
+                <input type="text" placeholder="Nome"/>
+                <input type="email" placeholder="Email"/>
+                <input type="password" placeholder="Senha"/>
+                <button>Criar</button>
+            </form>
+        </div>
+
+        <div class="containerContent containerSignIn">
+            <form action="#">
+                <h1>Acessar perfil</h1>
+                <div class="containerSocial">
+                    <a href="#" class="socialMedia"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="socialMedia"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="socialMedia"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou use sua conta.</span>
+                <input type="email" placeholder="Email"/>
+                <input type="password" placeholder="Password"/>
+                <a href="#">Esquceu sua senha?</a>
+                <button>Entrar</button>
+            </form>
+        </div>
+
+        <div class="containerOverlay">
+            <div class="overlay">
+                <div class="panelOverlay overlayLeft">
+                    <h1>De volta?</h1>
+                    <p>
+                        Para se manter conectado conosco, faça o login com seus dados pessoais.
+                    </p>
+                    <button class="ghost" id="signIn">Entrar</button>
+                </div>
+                <div class="panelOverlay overlayRight">
+                    <h1>Oi, amigo!</h1>
+                    <p>
+                        Insira seus dados pessoais e comece a jornada conosco.
+                    </p>
+                    <button class="ghost" id="signUp">Criar conta</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
